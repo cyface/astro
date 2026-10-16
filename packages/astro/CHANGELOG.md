@@ -1,5 +1,11 @@
 # astro
 
+## 7.4.1
+
+### Patch Changes
+
+- [#18401](https://github.com/withastro/astro/pull/18401) [`484822f`](https://github.com/withastro/astro/commit/484822fbba652745c4f2da5ef434a350203578e2) Thanks [@danielmlr](https://github.com/danielmlr)! - Fixes a bug where projects whose path contains an apostrophe (`'`) failed to load sessions, middleware, a cache provider, or a `src/fetch.ts` handler
+
 ## 7.4.0
 
 ### Minor Changes
